@@ -59,7 +59,7 @@ module.exports = {
   GPT: (process.env.GPT || 'free').trim(),
   MODEL: (process.env.MODEL || 'gpt-3.5-turbo').trim(),
   APPROVE: (process.env.APPROVE || '').trim(),
-  ANTI_DELETE: (process.env.ANTI_DELETE || 'null').trim(),
+  ANTI_DELETE: (process.env.ANTI_DELETE || 'true').trim(),
   PERSONAL_MESSAGE: (process.env.PERSONAL_MESSAGE || 'null').trim(),
   DISABLE_START_MESSAGE: process.env.DISABLE_START_MESSAGE
     ? toBool(process.env.DISABLE_START_MESSAGE)
